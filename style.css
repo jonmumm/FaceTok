@@ -1,0 +1,46 @@
+body {
+	background: #eee;
+	padding: 30px;
+	font-family: 'Lucida Grande',Arial,sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+#publisher-container, #image-container {
+	width: 264px;
+	height: 198px;
+}
+
+.button-container {
+	padding: 6px;
+}
+
+#identifyButton {
+	width: 100%;
+}
+
+.container {
+	padding: 8px;
+	background: white;
+	border-radius: 8px;	
+	float: left;
+	margin-right: 12px;
+	width: 264px;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+#log-container {
+	width: 240px;
+	height: 220px;
+}
+
+#log-container h2 {
+	margin-bottom: 6px;
+}
+
+#logs {
+	color: #666;
+}
