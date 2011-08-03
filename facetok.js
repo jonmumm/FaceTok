@@ -201,6 +201,8 @@ var faceClient = {
 					dataType: 'jsonp',
 					success: function(response) {
 						log.message("done looking.");
+						// Here I'm making the assumption that there is only one photo
+						// and only one tag. Iterate the arrays to make it more robust.
 						if (response.photos[0].tags.length > 0) {
 							callback(response.photos[0].tags[0]);		
 						} else {
